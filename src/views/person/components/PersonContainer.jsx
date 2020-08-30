@@ -4,8 +4,7 @@ import {
   View,
   ContainerFilter,
   ViewAll,
-  LoadGif,
-  DivGif
+  LoadGif
 } from './styles';
 import PersonListComponent from './PersonListComponent';
 import PersonFilter from './PersonFilter';
