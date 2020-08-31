@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`When screen is loaded should show load when list is empty 1`] = `false`;
+
+exports[`When screen is loaded shouldn't show loading when list is not empty 1`] = `false`;

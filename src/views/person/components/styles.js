@@ -18,7 +18,18 @@ export const Container = styled.div`
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  padding: 33px 30px;
+`;
+
+export const ContanerTitle = styled.div`
+  align-items:center;
+  justify-content: center;
+  max-width: 100%;
+  display: flex;
+`;
+
+export const Title = styled.h2`
+  color: white;
+  weight: bold;
 `;
 
 export const ViewAll = styled.div`
@@ -54,6 +65,7 @@ export const ContainerListResult = styled.div`
 export const DivGif = styled.div`
   align-items: center;
   justify-content: center;
+  display:flex;
   max-height: 250px;
   max-width: 300px;
   margin-top: 20px;

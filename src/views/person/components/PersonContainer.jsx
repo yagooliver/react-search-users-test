@@ -4,7 +4,9 @@ import {
   View,
   ContainerFilter,
   ViewAll,
-  LoadGif
+  LoadGif,
+  ContanerTitle,
+  Title
 } from './styles';
 import PersonListComponent from './PersonListComponent';
 import PersonFilter from './PersonFilter';
@@ -18,6 +20,9 @@ export default class PersonContainer extends React.Component{
     return(
       <Container>
         <ViewAll>
+        <ContanerTitle>
+            <Title>Search Persons</Title>
+          </ContanerTitle>
           <ContainerFilter>
             <PersonFilter query={this.props.query} onChange={this.props.changeQuery} onSearch={this.props.loadQueries}/>
           </ContainerFilter>
